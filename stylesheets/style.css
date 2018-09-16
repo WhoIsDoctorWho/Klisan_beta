@@ -20,7 +20,7 @@ p, li {
     /* width and heigth of menu rectangle */
     width: 300px;
     height: 550px;    
-    margin-top: 150px;
+    margin-top: 70px;
     padding-top: 40px; /* alignment relative to a given rectangle-menu */
 
     font-size: 200%;
