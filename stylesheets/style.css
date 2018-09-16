@@ -1,0 +1,134 @@
+body {   
+    background-image: url("../images/bg.png");    
+    width: 1200px; /* conts width */
+    margin: auto; 
+}
+
+#logo {
+    text-align: center; /* Need it for correctly displaying logo-image */
+}
+
+p, li {
+    font-size: 200%;       
+    color: lightgrey;
+}
+
+/* */
+.menu { 
+    float: left; /* The element floats to the left of its container, other elements will be rightly */
+
+    /* width and heigth of menu rectangle */
+    width: 300px;
+    height: 550px;    
+    margin-top: 150px;
+    padding-top: 40px; /* alignment relative to a given rectangle-menu */
+
+    font-size: 200%;
+    background-color: rgb(46, 46, 54);
+
+    border-radius: 15px;    
+    
+}
+
+.menu a {   
+    color: white;
+    text-decoration: none;
+}
+
+.menu li {    
+    list-style-type: none;
+ }
+
+.content {    
+    margin-left: 450px; /* indent from menu */    
+}
+
+.content h1 { 
+    padding-left: 170px;
+    padding-top: 12px;
+    font-size: 400%;
+    color: white;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 280%;
+}
+
+#usersTable {
+
+    margin-top: 150px;
+
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+    border-width: 400%;
+
+    width: 70%;
+    height: 500px;
+
+    font-size: 200%;    
+}
+
+td, th {
+    border: 1px solid black;    
+    text-align: center;
+}
+
+#usersTable a {
+    color: rgba(255, 255, 255, 0.897);   
+    text-decoration: none;
+}
+
+#serials {
+    margin-left: 400px;
+    margin-top: 150px;    
+
+    width: 1000px;
+    height: auto;
+
+    position: absolute; 
+
+    text-align: center; 
+    background-color: rgba(128, 128, 128, 0.171);    
+
+
+    border-radius: 15px;
+    list-style-type: none;
+
+    font-size: 150%;
+}
+
+#serials a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+#serials li {
+    padding-top: 20px;
+}
+
+.serial {
+    margin-top: 25px;
+}
+
+.serial img {
+    padding-left: auto;
+    border-radius: 15px;
+}
+
+.userpage {
+    margin-left: 500px;
+    margin-top: 150px;  
+    
+}
+
+.userpage img {
+    border-radius: 30px;
+    float: left;
+}
+
+#userMainInfo {
+    font-size: 150%;
+    padding-left: 300px;  
+}
